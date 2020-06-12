@@ -1,0 +1,127 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+body {
+   width:100%;
+  font-size: 11pt;
+  color:#000;
+  background-color: #dadada  ;
+  
+}  
+.header {
+  background-color: #fff;
+  display: block;
+  box-shadow: 0 5px 10px #00000040;
+  padding: 10px;
+  overflow: hidden;
+}
+.mid {
+  width:80%;
+  margin: 0px auto;
+  overflow: hidden;
+  display: block;
+}
+.logo {
+  width: 15%;
+  float:left;
+}
+.logo img {
+  max-height:50px;
+}
+.menu-top {
+  width:85%;
+  padding-top:18px;
+}
+.menu-top ul li {
+  list-style-type: none;
+  display: inline-block;
+  float: right;
+  font-size: 15px;
+  font-weight:bold;
+  font-family: Tahoma;
+}
+.menu-top ul li a {
+  padding:8px 15px;
+  color: green;
+}
+.menu-top ul li a:hover {
+  background-color: #d1d1d1;
+  border-radius: 3px;
+  color:red;
+  transition-duration: .5s;
+}
+
+/* body css start here */ 
+.cover {
+   overflow: hidden;
+   margin:8px;
+}
+.first {
+   width:69%;
+   float:left;
+   background-color: yellow;
+   height:200px;
+   text-align: center;
+   font-size: 25px;
+   font-weight: bold;
+}
+.second {
+   width:30%;
+   float:right;
+   background-color:#fff;
+   min-height:200px;}
+footer {
+   width: 100%;
+   padding: 25px;
+   text-align: center;
+   background-color: green;
+   font-size: 25px;
+   font-weight: bold
+}
+
+
+/*  Login form css */
+.l_form {
+   padding:10px;
+}
+.l_form input[type=text], input[type=password] {
+   width:90%;
+   margin-top:9px;
+   height:18px;
+   padding:4px;
+   color:green;
+   border-radius: 3px;
+   border:1px solid #d1d1d1;
+}
+.l_form input[type=submit] {
+   width:95%;
+   margin-top:9px;
+   padding:7px;
+   color:#000;
+   border-radius: 3px;
+   border:1px solid green;
+   background-color:lightgreen;
+   font-weight:500;
+   text-transform: uppercase;
+}
+.l_form input[type=submit]:hover {
+   background-color:green;
+   transition-duration: .6s;
+   color:#fff;
+}
+.second h3 {
+   text-align:left;
+   font-size: 15px;
+   padding:6px;
+   color:#444444;
+   text-transform: uppercase;
+   border-bottom: 1px solid #f1f1f1;
+}
+.text {
+   padding:7px;
+}
